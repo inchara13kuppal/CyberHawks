@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Ollar %d</item>
+        <item quantity="other">Ollar tódalas %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Actualizado hai %1$d día</item>
+        <item quantity="other">Actualizado hai %1$d días</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Actualizado hai %1$d mes</item>
+        <item quantity="other">Actualizado hai %1$d meses</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Actualizado hai %1$d semana</item>
+        <item quantity="other">Actualizado hai %1$d semanas</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Actualizado hai %1$d ano</item>
+        <item quantity="other">Actualizado hai %1$d anos</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificación nova</item>
+        <item quantity="other">%d notificacións novas</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d aplicación instalada</item>
+        <item quantity="other">%1$d aplicacións instaladas</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d máis…</item>
+        <item quantity="other">+%1$d moito máis…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d actualización</item>
+        <item quantity="other">%1$d actulizacións</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Ollar %1$d aplicación na categoría %2$s</item>
+        <item quantity="other">Ollar tódalas %1$d aplicacións na categoría %2$s</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Baixar actualizacións para %1$d aplicación.</item>
+        <item quantity="other">Baixar actualizacións para %1$d actualizacións.</item>
+    </plurals>
+</resources>

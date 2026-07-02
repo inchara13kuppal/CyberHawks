@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Kyk na %d</item>
+        <item quantity="other">Kyk na alle %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">%1$d dag gelede opgedateer</item>
+        <item quantity="other">%1$d dae gelede opgedateer</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">"'n Maand gelede opgedateer"</item>
+        <item quantity="other">%1$d maande gelede opgedateer</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">"'n Week gelede opgedateer"</item>
+        <item quantity="other">%1$d weke gelede opgedateer</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">"'n Jaar gelede opgedateer"</item>
+        <item quantity="other">%1$d jare gelede opgedateer</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuwe kennisgewing</item>
+        <item quantity="other">%d nuwe kennisgewings</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d Program geïnstalleer</item>
+        <item quantity="other">%1$d Programme geïnstalleer</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d meer…</item>
+        <item quantity="other">+%1$d meer…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d Opdatering</item>
+        <item quantity="other">%1$d Opdaterings</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Kyk na %1$d program in die %2$s kategorie</item>
+        <item quantity="other">Kyk na alle %1$d programme van die %2$s kategorie</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Laai opdaterings vir %1$d programme af.</item>
+        <item quantity="other">Laai bywerking vir %1$d app.</item>
+    </plurals>
+</resources>

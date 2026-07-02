@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Näytä yksi</item>
+        <item quantity="other">Näytä kaikki %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Päivitetty %1$d päivä sitten</item>
+        <item quantity="other">Päivitetty %1$d päivää sitten</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Päivitetty %1$d kuukausi sitten</item>
+        <item quantity="other">Päivitetty %1$d kuukautta sitten</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Päivitetty %1$d viikko sitten</item>
+        <item quantity="other">Päivitetty %1$d viikkoa sitten</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Päivitetty %1$d vuosi sitten</item>
+        <item quantity="other">Päivitetty %1$d vuotta sitten</item>
+    </plurals>
+    <plurals name="ipfsgw_summary">
+        <item quantity="one">Lataa sovelluksia IPFS-verkkopäätepisteen avulla: %1$d käytössä</item>
+        <item quantity="other">Lataa sovelluksia IPFS-verkkopäätepisteiden avulla: %1$d käytössä</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">Yksi sovellus asennettu</item>
+        <item quantity="other">%1$d sovellusta asennettu</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">Yksi lisää…</item>
+        <item quantity="other">+%1$d lisää…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">Yksi päivitys</item>
+        <item quantity="other">%1$d päivitystä</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Näytä yksi sovellus %2$s-luokassa</item>
+        <item quantity="other">Näytä kaikki %1$d sovellusta %2$s-luokasta</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Lataa päivitys yhteen sovellukseen:</item>
+        <item quantity="other">Lataa päivitykset %1$d sovellukseen:</item>
+    </plurals>
+</resources>

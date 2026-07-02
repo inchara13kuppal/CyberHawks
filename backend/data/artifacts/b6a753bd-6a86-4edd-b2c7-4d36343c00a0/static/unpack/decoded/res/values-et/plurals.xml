@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Kuva %d</item>
+        <item quantity="other">Kuva kõik %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Uuendati %1$d päev tagasi</item>
+        <item quantity="other">Uuendati %1$d päeva tagasi</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Uuendati %1$d kuu tagasi</item>
+        <item quantity="other">Uuendati %1$d kuud tagasi</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Uuendati %1$d nädal tagasi</item>
+        <item quantity="other">Uuendati %1$d nädalat tagasi</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Uuendati %1$d aasta tagasi</item>
+        <item quantity="other">Uuendati %1$d aastat tagasi</item>
+    </plurals>
+    <plurals name="ipfsgw_summary">
+        <item quantity="one">Laadi rakendus IPFS võrgu kaudu: %1$d on kasutusel</item>
+        <item quantity="other">Laadi rakendusi IPFS võrgu kaudu: %1$d on kasutusel</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uus märguanne</item>
+        <item quantity="other">%d uut märguannet</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d rakendus paigaldatud</item>
+        <item quantity="other">%1$d rakendust paigaldatud</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">veel +%1$d…</item>
+        <item quantity="other">+%1$d veel…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d värskendus</item>
+        <item quantity="other">%1$d värskendust</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Kuva %1$d rakendus kategoorias %2$s</item>
+        <item quantity="other">Kuva kõik %1$d rakendust kategoorias %2$s</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Värskenduse allalaadimine %1$d-le äpile:</item>
+        <item quantity="other">Värskenduste allalaadimine %1$d-le äpile:</item>
+    </plurals>
+</resources>

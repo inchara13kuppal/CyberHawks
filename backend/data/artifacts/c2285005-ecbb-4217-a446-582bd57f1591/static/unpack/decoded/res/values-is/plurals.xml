@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Skoða %d</item>
+        <item quantity="other">Skoða öll %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Uppfært fyrir %1$d degi síðan</item>
+        <item quantity="other">Uppfært fyrir %1$d dögum</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Uppfært fyrir %1$d mánuði síðan</item>
+        <item quantity="other">Uppfært fyrir %1$d mánuðum síðan</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Uppfært fyrir %1$d viku síðan</item>
+        <item quantity="other">Uppfært fyrir %1$d vikum síðan</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Uppfært fyrir %1$d ári síðan</item>
+        <item quantity="other">Uppfært fyrir %1$d árum</item>
+    </plurals>
+    <plurals name="ipfsgw_summary">
+        <item quantity="one">Sækja forrit með IPFS-endapunktum á vef: %1$d virkur</item>
+        <item quantity="other">Sækja forrit með IPFS-endapunktum á vef: %1$d virkir</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ný tilkynning</item>
+        <item quantity="other">%d nýjar tilkynningar</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d forrit sett upp</item>
+        <item quantity="other">%1$d forrit sett upp</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d til viðbótar…</item>
+        <item quantity="other">+%1$d til viðbótar…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d uppfærsla</item>
+        <item quantity="other">%1$d uppfærslur</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Skoða %1$d forritið í %2$s flokknum</item>
+        <item quantity="other">Skoða öll %1$d forritin í %2$s flokknum</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Sækja uppfærslu fyrir %1$d forrit.</item>
+        <item quantity="other">Sækja uppfærslur fyrir %1$d forrit.</item>
+    </plurals>
+</resources>

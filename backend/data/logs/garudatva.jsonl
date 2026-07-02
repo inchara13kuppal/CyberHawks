@@ -1,0 +1,130 @@
+{"ts": "2026-06-30T05:03:02.018449+00:00", "level": "INFO", "logger": "core.static.india_patterns", "msg": "India patterns loaded: 47 patterns"}
+{"ts": "2026-06-30T05:03:02.036596+00:00", "level": "INFO", "logger": "main", "msg": "Garudatva v3 starting up..."}
+{"ts": "2026-06-30T05:03:02.036639+00:00", "level": "INFO", "logger": "main", "msg": "Environment: development"}
+{"ts": "2026-06-30T05:03:02.036665+00:00", "level": "INFO", "logger": "main", "msg": "Air-gap mode: False"}
+{"ts": "2026-06-30T05:03:02.036760+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/uploads"}
+{"ts": "2026-06-30T05:03:02.036834+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/evidence"}
+{"ts": "2026-06-30T05:03:02.036892+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/reports"}
+{"ts": "2026-06-30T05:03:02.036950+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/artifacts"}
+{"ts": "2026-06-30T07:17:10.799792+00:00", "level": "INFO", "logger": "api.analysis", "msg": "Case registered: string FIR=string"}
+{"ts": "2026-06-30T07:17:19.620446+00:00", "level": "INFO", "logger": "api.analysis", "msg": "APK uploaded: test.apk sha256=b64651849eceb574\u2026"}
+{"ts": "2026-06-30T07:17:19.620800+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "CustodyChain initialised \u2014 analysis_id=c2285005-ecbb-4217-a446-582bd57f1591"}
+{"ts": "2026-06-30T07:17:19.620961+00:00", "level": "INFO", "logger": "core.pipeline", "msg": "Pipeline started: analysis_id=c2285005-ecbb-4217-a446-582bd57f1591"}
+{"ts": "2026-06-30T07:17:19.621442+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=0 stage=PIPELINE_START hash=902905b6a70e25d2\u2026"}
+{"ts": "2026-06-30T07:17:19.622232+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 10330MB used of 24576MB"}
+{"ts": "2026-06-30T07:17:19.622276+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] STATIC_TRIAGE: 10330MB used / 24576MB total (68.1%)"}
+{"ts": "2026-06-30T07:17:19.622338+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=1 stage=STATIC_TRIAGE hash=d469379572ae8f96\u2026"}
+{"ts": "2026-06-30T07:17:19.622421+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 10330MB used of 24576MB"}
+{"ts": "2026-06-30T07:17:19.622451+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] static_triage_start: 10330MB used / 24576MB total (68.1%)"}
+{"ts": "2026-06-30T07:17:19.631021+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "APK SHA256: b64651849eceb57459049e7017e043008fce8f146aad1d34d98f0027d87e4eef"}
+{"ts": "2026-06-30T07:17:19.631069+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1b: APK unpack"}
+{"ts": "2026-06-30T07:17:36.309481+00:00", "level": "INFO", "logger": "core.static.apk_unpacker", "msg": "apktool decode succeeded \u2192 /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/artifacts/c2285005-ecbb-4217-a446-582bd57f1591/static/unpack/decoded"}
+{"ts": "2026-06-30T07:17:36.594651+00:00", "level": "INFO", "logger": "core.static.apk_unpacker", "msg": "ZIP extracted: 2 DEX, 0 .so files"}
+{"ts": "2026-06-30T07:17:36.707336+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1c: Manifest parse"}
+{"ts": "2026-06-30T07:17:36.709215+00:00", "level": "INFO", "logger": "core.static.manifest_parser", "msg": "Manifest: pkg=org.fdroid.fdroid perms=28 toxic=7 obfuscation=1"}
+{"ts": "2026-06-30T07:17:36.709408+00:00", "level": "INFO", "logger": "core.static.permission_scorer", "msg": "Permission score: 5.1/10 (7 factors)"}
+{"ts": "2026-06-30T07:17:36.709474+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1e: Certificate parse"}
+{"ts": "2026-06-30T07:17:37.360659+00:00", "level": "ERROR", "logger": "core.static.certificate_parser", "msg": "Certificate parse failed: error parsing asn1 value: ParseError { kind: UnexpectedTag { actual: Tag { value: 19, constructed: true, class: Application } } }"}
+{"ts": "2026-06-30T07:17:37.360884+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1f: DEX analysis"}
+{"ts": "2026-06-30T07:17:41.582471+00:00", "level": "WARNING", "logger": "core.static.dex_analyzer", "msg": "androguard failed: No module named 'androguard.core.bytecodes' \u2014 falling back to raw strings"}
+{"ts": "2026-06-30T07:17:42.377753+00:00", "level": "INFO", "logger": "core.static.dex_analyzer", "msg": "DEX: 131333 strings, 52 URLs, obfuscation=1"}
+{"ts": "2026-06-30T07:17:42.377917+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1g: Native analysis"}
+{"ts": "2026-06-30T07:17:42.377991+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1h: YARA scan"}
+{"ts": "2026-06-30T07:17:43.761103+00:00", "level": "INFO", "logger": "core.static.yara_scanner", "msg": "YARA hit: Bank_Card_Data_Harvest (BANKING_TROJAN) in classes2.dex"}
+{"ts": "2026-06-30T07:17:46.874536+00:00", "level": "ERROR", "logger": "core.static.yara_scanner", "msg": "YARA compile error rat_indicators.yar: /Users/dishalokesh/CIDECODE/CyberHawks/yara-rules/rat_indicators.yar(94): unreferenced string \"$k5\""}
+{"ts": "2026-06-30T07:17:46.917574+00:00", "level": "INFO", "logger": "core.static.yara_scanner", "msg": "YARA hit: C2_Hardcoded_Endpoint (C2) in test.apk"}
+{"ts": "2026-06-30T07:17:46.975634+00:00", "level": "INFO", "logger": "core.static.yara_scanner", "msg": "YARA scan complete: 2 matches, 2 categories, score=13.0"}
+{"ts": "2026-06-30T07:17:46.976251+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1i: India patterns (47)"}
+{"ts": "2026-06-30T07:17:47.012647+00:00", "level": "INFO", "logger": "core.static.india_patterns", "msg": "India patterns: 4 matches (IND_002, IND_011, IND_039, IND_045\u2026)"}
+{"ts": "2026-06-30T07:17:47.012855+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1k: ML inference"}
+{"ts": "2026-06-30T07:17:47.012995+00:00", "level": "WARNING", "logger": "core.static.ml_classifier", "msg": "Model not found at /Users/dishalokesh/CIDECODE/CyberHawks/backend/ml/models/india_malware_rf.pkl. Run ml/trainer.py to train first. Using fallback heuristic scoring."}
+{"ts": "2026-06-30T07:17:47.013417+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 9409MB used of 24576MB"}
+{"ts": "2026-06-30T07:17:47.013470+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] static_triage_end: 9409MB used / 24576MB total (67.7%)"}
+{"ts": "2026-06-30T07:17:47.013520+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Static triage complete: risk=35.4 (RiskTier.SUSPICIOUS) in 27.4s"}
+{"ts": "2026-06-30T07:17:47.013782+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=2 stage=STATIC_TRIAGE hash=b37c84a344f850b1\u2026"}
+{"ts": "2026-06-30T07:17:47.013936+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 9409MB used of 24576MB"}
+{"ts": "2026-06-30T07:17:47.013971+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] NEO4J_GRAPH: 9409MB used / 24576MB total (67.7%)"}
+{"ts": "2026-06-30T07:18:00.306080+00:00", "level": "INFO", "logger": "core.graph.neo4j_client", "msg": "Neo4j connected: bolt://localhost:7687"}
+{"ts": "2026-06-30T07:18:03.019772+00:00", "level": "INFO", "logger": "core.graph.ioc_ingester", "msg": "Ingested 101 IOCs for analysis c2285005-ecbb-4217-a446-582bd57f1591"}
+{"ts": "2026-06-30T07:18:03.277944+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 10192MB used of 24576MB"}
+{"ts": "2026-06-30T07:18:03.278463+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] LLM_NARRATIVE: 10192MB used / 24576MB total (69.3%)"}
+{"ts": "2026-06-30T07:18:03.310783+00:00", "level": "INFO", "logger": "core.ai.ollama_client", "msg": "Generating narrative with qwen2.5:7b-instruct-q4_K_M..."}
+{"ts": "2026-06-30T07:19:32.235027+00:00", "level": "INFO", "logger": "core.ai.ollama_client", "msg": "Narrative generated: 337 words"}
+{"ts": "2026-06-30T07:19:32.235749+00:00", "level": "WARNING", "logger": "core.ai.ollama_client", "msg": "Narrative attempt 1 has 2 violations: ['may ', 'could']"}
+{"ts": "2026-06-30T07:21:01.731118+00:00", "level": "WARNING", "logger": "core.ai.ollama_client", "msg": "Narrative attempt 2 has 2 violations: ['likely', 'may ']"}
+{"ts": "2026-06-30T07:22:39.401724+00:00", "level": "WARNING", "logger": "core.ai.ollama_client", "msg": "Narrative attempt 3 has 1 violations: ['likely']"}
+{"ts": "2026-06-30T07:25:46.452008+00:00", "level": "WARNING", "logger": "core.ai.translation", "msg": "Translation failed: "}
+{"ts": "2026-06-30T07:25:46.459189+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 11451MB used of 24576MB"}
+{"ts": "2026-06-30T07:25:46.459551+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] PDF_GENERATION: 11451MB used / 24576MB total (85.3%)"}
+{"ts": "2026-06-30T07:25:48.722191+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "Chain verified OK \u2014 3 entries intact"}
+{"ts": "2026-06-30T07:25:48.741046+00:00", "level": "INFO", "logger": "core.report.pdf_builder", "msg": "PDF built: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/reports/garudatva_report_c2285005.pdf (16,155 bytes)"}
+{"ts": "2026-06-30T07:25:48.741224+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=3 stage=PDF_GENERATED hash=bd2e62163febb6bd\u2026"}
+{"ts": "2026-06-30T07:25:48.741318+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=4 stage=PIPELINE_COMPLETE hash=d11feed8937e9b32\u2026"}
+{"ts": "2026-06-30T07:25:48.741408+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "Chain verified OK \u2014 5 entries intact"}
+{"ts": "2026-06-30T07:25:48.742453+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "Custody chain saved to /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/artifacts/c2285005-ecbb-4217-a446-582bd57f1591/custody_chain.json (5 entries)"}
+{"ts": "2026-06-30T07:25:48.840102+00:00", "level": "INFO", "logger": "main", "msg": "Garudatva v3 shutting down..."}
+{"ts": "2026-06-30T07:25:51.395784+00:00", "level": "INFO", "logger": "core.static.india_patterns", "msg": "India patterns loaded: 47 patterns"}
+{"ts": "2026-06-30T07:25:51.422725+00:00", "level": "INFO", "logger": "main", "msg": "Garudatva v3 starting up..."}
+{"ts": "2026-06-30T07:25:51.422877+00:00", "level": "INFO", "logger": "main", "msg": "Environment: development"}
+{"ts": "2026-06-30T07:25:51.422933+00:00", "level": "INFO", "logger": "main", "msg": "Air-gap mode: False"}
+{"ts": "2026-06-30T07:25:51.423050+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/uploads"}
+{"ts": "2026-06-30T07:25:51.423185+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/evidence"}
+{"ts": "2026-06-30T07:25:51.423279+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/reports"}
+{"ts": "2026-06-30T07:25:51.423332+00:00", "level": "INFO", "logger": "main", "msg": "Directory ready: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/artifacts"}
+{"ts": "2026-06-30T07:26:29.071312+00:00", "level": "INFO", "logger": "api.analysis", "msg": "Case registered: string FIR=string"}
+{"ts": "2026-06-30T07:26:40.576233+00:00", "level": "INFO", "logger": "api.analysis", "msg": "APK uploaded: test.apk sha256=b64651849eceb574\u2026"}
+{"ts": "2026-06-30T07:26:40.576968+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "CustodyChain initialised \u2014 analysis_id=b6a753bd-6a86-4edd-b2c7-4d36343c00a0"}
+{"ts": "2026-06-30T07:26:40.577098+00:00", "level": "INFO", "logger": "core.pipeline", "msg": "Pipeline started: analysis_id=b6a753bd-6a86-4edd-b2c7-4d36343c00a0"}
+{"ts": "2026-06-30T07:26:40.577339+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=0 stage=PIPELINE_START hash=0579a89c4a580b71\u2026"}
+{"ts": "2026-06-30T07:26:40.577548+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 11481MB used of 24576MB"}
+{"ts": "2026-06-30T07:26:40.577595+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] STATIC_TRIAGE: 11481MB used / 24576MB total (82.1%)"}
+{"ts": "2026-06-30T07:26:40.577653+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=1 stage=STATIC_TRIAGE hash=9f54cc20a9e028f5\u2026"}
+{"ts": "2026-06-30T07:26:40.577752+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 11481MB used of 24576MB"}
+{"ts": "2026-06-30T07:26:40.577783+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] static_triage_start: 11481MB used / 24576MB total (82.1%)"}
+{"ts": "2026-06-30T07:26:40.586461+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "APK SHA256: b64651849eceb57459049e7017e043008fce8f146aad1d34d98f0027d87e4eef"}
+{"ts": "2026-06-30T07:26:40.586530+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1b: APK unpack"}
+{"ts": "2026-06-30T07:26:54.430705+00:00", "level": "INFO", "logger": "core.static.apk_unpacker", "msg": "apktool decode succeeded \u2192 /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/artifacts/b6a753bd-6a86-4edd-b2c7-4d36343c00a0/static/unpack/decoded"}
+{"ts": "2026-06-30T07:26:54.908131+00:00", "level": "INFO", "logger": "core.static.apk_unpacker", "msg": "ZIP extracted: 2 DEX, 0 .so files"}
+{"ts": "2026-06-30T07:26:55.016949+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1c: Manifest parse"}
+{"ts": "2026-06-30T07:26:55.018528+00:00", "level": "INFO", "logger": "core.static.manifest_parser", "msg": "Manifest: pkg=org.fdroid.fdroid perms=28 toxic=7 obfuscation=1"}
+{"ts": "2026-06-30T07:26:55.018703+00:00", "level": "INFO", "logger": "core.static.permission_scorer", "msg": "Permission score: 5.1/10 (7 factors)"}
+{"ts": "2026-06-30T07:26:55.018755+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1e: Certificate parse"}
+{"ts": "2026-06-30T07:26:55.044395+00:00", "level": "ERROR", "logger": "core.static.certificate_parser", "msg": "Certificate parse failed: error parsing asn1 value: ParseError { kind: UnexpectedTag { actual: Tag { value: 19, constructed: true, class: Application } } }"}
+{"ts": "2026-06-30T07:26:55.044530+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1f: DEX analysis"}
+{"ts": "2026-06-30T07:26:55.685193+00:00", "level": "WARNING", "logger": "core.static.dex_analyzer", "msg": "androguard failed: No module named 'androguard.core.bytecodes' \u2014 falling back to raw strings"}
+{"ts": "2026-06-30T07:26:56.288306+00:00", "level": "INFO", "logger": "core.static.dex_analyzer", "msg": "DEX: 131333 strings, 52 URLs, obfuscation=1"}
+{"ts": "2026-06-30T07:26:56.288516+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1g: Native analysis"}
+{"ts": "2026-06-30T07:26:56.288660+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1h: YARA scan"}
+{"ts": "2026-06-30T07:26:56.508421+00:00", "level": "INFO", "logger": "core.static.yara_scanner", "msg": "YARA hit: Bank_Card_Data_Harvest (BANKING_TROJAN) in classes2.dex"}
+{"ts": "2026-06-30T07:26:59.622017+00:00", "level": "ERROR", "logger": "core.static.yara_scanner", "msg": "YARA compile error rat_indicators.yar: /Users/dishalokesh/CIDECODE/CyberHawks/yara-rules/rat_indicators.yar(94): unreferenced string \"$k5\""}
+{"ts": "2026-06-30T07:26:59.665366+00:00", "level": "INFO", "logger": "core.static.yara_scanner", "msg": "YARA hit: C2_Hardcoded_Endpoint (C2) in test.apk"}
+{"ts": "2026-06-30T07:26:59.722418+00:00", "level": "INFO", "logger": "core.static.yara_scanner", "msg": "YARA scan complete: 2 matches, 2 categories, score=13.0"}
+{"ts": "2026-06-30T07:26:59.723008+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1i: India patterns (47)"}
+{"ts": "2026-06-30T07:26:59.760304+00:00", "level": "INFO", "logger": "core.static.india_patterns", "msg": "India patterns: 4 matches (IND_002, IND_011, IND_039, IND_045\u2026)"}
+{"ts": "2026-06-30T07:26:59.760566+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Stage 1k: ML inference"}
+{"ts": "2026-06-30T07:26:59.760732+00:00", "level": "WARNING", "logger": "core.static.ml_classifier", "msg": "Model not found at /Users/dishalokesh/CIDECODE/CyberHawks/backend/ml/models/india_malware_rf.pkl. Run ml/trainer.py to train first. Using fallback heuristic scoring."}
+{"ts": "2026-06-30T07:26:59.761193+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 11265MB used of 24576MB"}
+{"ts": "2026-06-30T07:26:59.761257+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] static_triage_end: 11265MB used / 24576MB total (81.6%)"}
+{"ts": "2026-06-30T07:26:59.761302+00:00", "level": "INFO", "logger": "core.static.triage", "msg": "Static triage complete: risk=35.4 (RiskTier.SUSPICIOUS) in 19.2s"}
+{"ts": "2026-06-30T07:26:59.761573+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=2 stage=STATIC_TRIAGE hash=22c413f60e836287\u2026"}
+{"ts": "2026-06-30T07:26:59.761741+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 11265MB used of 24576MB"}
+{"ts": "2026-06-30T07:26:59.761771+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] NEO4J_GRAPH: 11265MB used / 24576MB total (81.6%)"}
+{"ts": "2026-06-30T07:27:00.328863+00:00", "level": "INFO", "logger": "core.graph.neo4j_client", "msg": "Neo4j connected: bolt://localhost:7687"}
+{"ts": "2026-06-30T07:27:01.133400+00:00", "level": "INFO", "logger": "core.graph.ioc_ingester", "msg": "Ingested 101 IOCs for analysis b6a753bd-6a86-4edd-b2c7-4d36343c00a0"}
+{"ts": "2026-06-30T07:27:01.142465+00:00", "level": "INFO", "logger": "core.graph.syndicate_linker", "msg": "Syndicates found for b6a753bd-6a86-4edd-b2c7-4d36343c00a0: 6 links"}
+{"ts": "2026-06-30T07:27:01.142808+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 11410MB used of 24576MB"}
+{"ts": "2026-06-30T07:27:01.142938+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] LLM_NARRATIVE: 11410MB used / 24576MB total (81.8%)"}
+{"ts": "2026-06-30T07:27:01.168031+00:00", "level": "INFO", "logger": "core.ai.ollama_client", "msg": "Generating narrative with qwen2.5:7b-instruct-q4_K_M..."}
+{"ts": "2026-06-30T07:28:27.106498+00:00", "level": "INFO", "logger": "core.ai.ollama_client", "msg": "Narrative generated: 316 words"}
+{"ts": "2026-06-30T07:28:27.107711+00:00", "level": "WARNING", "logger": "core.ai.ollama_client", "msg": "Narrative attempt 1 has 4 violations: ['likely', 'may ', 'could']"}
+{"ts": "2026-06-30T07:30:02.764303+00:00", "level": "WARNING", "logger": "core.ai.ollama_client", "msg": "Narrative attempt 2 has 2 violations: ['likely', 'may ']"}
+{"ts": "2026-06-30T07:32:12.832295+00:00", "level": "WARNING", "logger": "core.ai.ollama_client", "msg": "Narrative attempt 3 has 2 violations: ['could', 'indicates']"}
+{"ts": "2026-06-30T07:35:11.336944+00:00", "level": "WARNING", "logger": "core.ai.translation", "msg": "Translation failed: "}
+{"ts": "2026-06-30T07:35:11.341589+00:00", "level": "ERROR", "logger": "utils.ram_monitor", "msg": "RAM CRITICAL: 10884MB used of 24576MB"}
+{"ts": "2026-06-30T07:35:11.341759+00:00", "level": "INFO", "logger": "utils.ram_monitor", "msg": "[RAM] PDF_GENERATION: 10884MB used / 24576MB total (84.1%)"}
+{"ts": "2026-06-30T07:35:11.457701+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "Chain verified OK \u2014 3 entries intact"}
+{"ts": "2026-06-30T07:35:11.479666+00:00", "level": "INFO", "logger": "core.report.pdf_builder", "msg": "PDF built: /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/reports/garudatva_report_b6a753bd.pdf (16,244 bytes)"}
+{"ts": "2026-06-30T07:35:11.480051+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=3 stage=PDF_GENERATED hash=28bdebfe736e926f\u2026"}
+{"ts": "2026-06-30T07:35:11.480209+00:00", "level": "DEBUG", "logger": "core.custody_chain", "msg": "[custody] seq=4 stage=PIPELINE_COMPLETE hash=8f5c153b380150e3\u2026"}
+{"ts": "2026-06-30T07:35:11.480338+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "Chain verified OK \u2014 5 entries intact"}
+{"ts": "2026-06-30T07:35:11.480986+00:00", "level": "INFO", "logger": "core.custody_chain", "msg": "Custody chain saved to /Users/dishalokesh/CIDECODE/CyberHawks/backend/data/artifacts/b6a753bd-6a86-4edd-b2c7-4d36343c00a0/custody_chain.json (5 entries)"}

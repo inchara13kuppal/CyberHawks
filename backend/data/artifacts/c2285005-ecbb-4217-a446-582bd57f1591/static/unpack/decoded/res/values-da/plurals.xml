@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Vis %d</item>
+        <item quantity="other">Vis alle %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Opdateret for %1$d dag siden</item>
+        <item quantity="other">Opdateret for %1$d dage siden</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Opdateret for %1$d måned siden</item>
+        <item quantity="other">Opdateret for %1$d måneder siden</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Opdateret for %1$d uge siden</item>
+        <item quantity="other">Opdateret for %1$d uger siden</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Opdateret for %1$d år siden</item>
+        <item quantity="other">Opdateret for %1$d år siden</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny notifikation</item>
+        <item quantity="other">%d nye notifikationer</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d App Installeret</item>
+        <item quantity="other">%1$d Apps Installeret</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d flere…</item>
+        <item quantity="other">+%1$d flere…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d Opdatering</item>
+        <item quantity="other">%1$d Opdateringer</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Vis %1$d app i kategorien %2$s</item>
+        <item quantity="other">Vis %1$d apps i kategorien %2$s</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Hent opdatering til %1$d app.</item>
+        <item quantity="other">Hent opdateringer til %1$d apps.</item>
+    </plurals>
+</resources>

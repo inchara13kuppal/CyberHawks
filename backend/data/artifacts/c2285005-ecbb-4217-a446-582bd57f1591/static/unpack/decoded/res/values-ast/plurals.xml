@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Ver %d aplicación</item>
+        <item quantity="other">Ver les %d aplicaciones</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Anovóse hai %1$d día</item>
+        <item quantity="other">Anovóse hai %1$d díes</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Anovóse hai %1$d mes</item>
+        <item quantity="other">Anovóse hai %1$d meses</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Anovóse hai %1$d selmana</item>
+        <item quantity="other">Anovóse hai %1$d selmanes</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Anovóse hai %1$d añu</item>
+        <item quantity="other">Anovóse hai %1$d años</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">Instalóse %1$d aplicación</item>
+        <item quantity="other">Instaláronse %1$d aplicaciones</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">%1$d más…</item>
+        <item quantity="other">%1$d más…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d anovamientu</item>
+        <item quantity="other">%1$d anovamientos</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Ver %1$d aplicación de la categoría «%2$s»</item>
+        <item quantity="other">Ver %1$d aplicaciones de la categoría «%2$s»</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Download update for %1$d app.</item>
+        <item quantity="other">Download updates for %1$d apps.</item>
+    </plurals>
+</resources>

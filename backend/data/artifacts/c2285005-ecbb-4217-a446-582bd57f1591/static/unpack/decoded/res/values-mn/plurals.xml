@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">%d үзэх</item>
+        <item quantity="other">Бүх %d-г үзэх</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">%1$d өдрийн өмнө шинэчлэгдсэн</item>
+        <item quantity="other">%1$d өдрийн өмнө шинэчлэгдсэн</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">%1$d сарын өмнө шинэчлэгдсэн</item>
+        <item quantity="other">%1$d сарын өмнө шинэчлэгдсэн</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">%1$d долоо хоногийн өмнө шинэчлэгдсэн</item>
+        <item quantity="other">%1$d долоо хоногийн өмнө шинэчлэгдсэн</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">%1$d жилийн өмнө шинэчлэгдсэн</item>
+        <item quantity="other">%1$d жилийн өмнө шинэчлэгдсэн</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d шинэ мэдэгдэл</item>
+        <item quantity="other">%d шинэ мэдэгдэл</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d апп суулгасан</item>
+        <item quantity="other">%1$d апп-ууд суулгасан</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d дэлгэрэнгүй …</item>
+        <item quantity="other">+%1$d дэлгэрэнгүй …</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d шинэчлэлт</item>
+        <item quantity="other">%1$d шинэчлэлтүүд</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">%2$s ангилалд %1$d апп харах</item>
+        <item quantity="other">%2$s ангиллын %1$d програмыг бүгдийг нь үзэх</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">%1$d програмын шинэчлэлтийг татаж авах.</item>
+        <item quantity="other">%1$d програмуудын шинэчлэлтүүдийг татаж авах.</item>
+    </plurals>
+</resources>

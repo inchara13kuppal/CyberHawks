@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Vis %d</item>
+        <item quantity="other">Vis alle %d</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Oppdatert for %1$d dag sidan</item>
+        <item quantity="other">Oppdatert for %1$d dagar sidan</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Oppdatert for %1$d månad sidan</item>
+        <item quantity="other">Oppdatert for %1$d månadar sidan</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Oppdatert for %1$d veke sidan</item>
+        <item quantity="other">Oppdatert for %1$d veker sidan</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Oppdatert for %1$d år sidan</item>
+        <item quantity="other">Oppdatert for %1$d år sidan</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d app installert</item>
+        <item quantity="other">%1$d appar installerte</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+ %1$d fleire …</item>
+        <item quantity="other">+ %1$d fleire …</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d oppdatering</item>
+        <item quantity="other">%1$d oppdateringar</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Vis %1$d app i kategorien %2$s</item>
+        <item quantity="other">Vis %1$d appar i kategorien %2$s</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Last ned oppdatering for %1$d app.</item>
+        <item quantity="other">Last ned oppdatering for %1$d appar.</item>
+    </plurals>
+</resources>

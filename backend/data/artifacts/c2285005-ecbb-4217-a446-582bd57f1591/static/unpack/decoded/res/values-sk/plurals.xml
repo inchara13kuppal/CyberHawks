@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="button_view_all_apps_in_category">
+        <item quantity="one">Dostupná %d aplikácia</item>
+        <item quantity="few">Dostupné %d aplikácie</item>
+        <item quantity="other">Dostupných %d aplikácií</item>
+    </plurals>
+    <plurals name="details_last_update_days">
+        <item quantity="one">Od poslednej aktualizácie prešiel %1$d deň</item>
+        <item quantity="few">Od poslednej aktualizácie prešli %1$d dni</item>
+        <item quantity="other">Od poslednej aktualizácie prešlo %1$d dní</item>
+    </plurals>
+    <plurals name="details_last_update_months">
+        <item quantity="one">Od poslednej aktualizácie prešiel %1$d mesiac</item>
+        <item quantity="few">Od poslednej aktualizácie prešli %1$d mesiace</item>
+        <item quantity="other">Od poslednej aktualizácie prešlo %1$d mesiacov</item>
+    </plurals>
+    <plurals name="details_last_update_weeks">
+        <item quantity="one">Od poslednej aktualizácie prešiel %1$d týždeň</item>
+        <item quantity="few">Od poslednej aktualizácie prešli %1$d týždne</item>
+        <item quantity="other">Od poslednej aktualizácie prešlo %1$d týždňov</item>
+    </plurals>
+    <plurals name="details_last_update_years">
+        <item quantity="one">Od poslednej aktualizácie prešiel %1$d rok</item>
+        <item quantity="few">Od poslednej aktualizácie prešli %1$d roky</item>
+        <item quantity="other">Od poslednej aktualizácie prešlo %1$d rokov</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="notification_summary_installed">
+        <item quantity="one">%1$d nainštalovaná aplikácia</item>
+        <item quantity="few">%1$d nainštalované aplikácie</item>
+        <item quantity="other">%1$d nainštalovaných aplikácií</item>
+    </plurals>
+    <plurals name="notification_summary_more">
+        <item quantity="one">+%1$d ďaľšia…</item>
+        <item quantity="few">+%1$d ďaľšie…</item>
+        <item quantity="other">+%1$d ďaľších…</item>
+    </plurals>
+    <plurals name="notification_summary_updates">
+        <item quantity="one">%1$d aktualizácia</item>
+        <item quantity="few">%1$d aktualizácie</item>
+        <item quantity="other">%1$d aktualizácií</item>
+    </plurals>
+    <plurals name="tts_view_all_in_category">
+        <item quantity="one">Zobraziť %1$d aplikáciu z kategórie %2$s</item>
+        <item quantity="few">Zobraziť %1$d aplikácie z kategórie %2$s</item>
+        <item quantity="other">Zobraziť %1$d aplikácií z kategórie %2$s</item>
+    </plurals>
+    <plurals name="updates__download_updates_for_apps">
+        <item quantity="one">Stiahnuť aktualizáciu pre %1$d aplikáciu.</item>
+        <item quantity="few">Stiahnuť aktualizácie pre %1$d aplikácie.</item>
+        <item quantity="other">Stiahnuť aktualizácie pre %1$d aplikácií.</item>
+    </plurals>
+</resources>
